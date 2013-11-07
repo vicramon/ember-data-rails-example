@@ -1,0 +1,3 @@
+h3 Story List
+each controller
+  = render 'story' this

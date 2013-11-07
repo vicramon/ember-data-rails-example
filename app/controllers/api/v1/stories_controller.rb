@@ -3,7 +3,7 @@ class Api::V1::StoriesController < ApplicationController
   respond_to :json
 
   def index
-    respond_with stories
+    respond_with Story.all
   end
 
 
