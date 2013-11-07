@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ember-data-rails-example_development
+  pool: 5
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ember-data-rails-example_test
+  pool: 5
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ember-data-rails-example_production
+  pool: 5
+  host: localhost
