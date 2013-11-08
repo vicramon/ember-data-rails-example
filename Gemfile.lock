@@ -140,6 +140,7 @@ DEPENDENCIES
   ember-source
   emblem-rails
   haml-rails
+  handlebars-source
   jquery-rails
   pg
   rails (= 4.0.0)
