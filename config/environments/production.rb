@@ -16,4 +16,5 @@ EmberDataRailsExample::Application.configure do
   config.i18n.fallbacks = true
   config.active_support.deprecation = :notify
   config.log_formatter = ::Logger::Formatter.new
+  config.ember.variant = :production
 end
