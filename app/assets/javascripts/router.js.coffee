@@ -1,2 +1,3 @@
 App.Router.map ()->
-  @resource 'stories', { path: '/' }
+  @resource 'stories', { path: '/stories' }, ->
+    @resource 'left_slide'

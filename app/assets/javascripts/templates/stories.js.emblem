@@ -1,3 +1,9 @@
 h3 Story List
 each story in  controller
   = render 'story' story
+
+h2 Modals
+
+= linkTo 'left_slide' | Route-based modal
+
+= outlet
