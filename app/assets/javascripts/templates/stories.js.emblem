@@ -7,3 +7,10 @@ h2 Modals
 = linkTo 'left_slide' | Route-based modal
 
 = outlet
+
+br
+br
+
+a href="#" click="openCenterModal" Global modal
+
+= outlet 'center_modal'
