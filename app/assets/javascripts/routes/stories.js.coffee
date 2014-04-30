@@ -1,3 +1,3 @@
 App.StoriesRoute = Ember.Route.extend
   model: ->
-    App.Story.find()
+    @store.find('story')
