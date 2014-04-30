@@ -43,7 +43,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
-    ember-data-source (0.14)
+    ember-data-source (1.0.0.beta.7)
       ember-source
     ember-rails (0.14.1)
       active_model_serializers
@@ -136,8 +136,9 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails
+  ember-data-source (>= 1.0.0.beta7)
   ember-rails
-  ember-source
+  ember-source (>= 1.5.1.1)
   emblem-rails
   haml-rails
   jquery-rails (= 3.0.4)

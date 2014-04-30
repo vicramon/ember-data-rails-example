@@ -3,7 +3,8 @@ ruby "2.0.0"
 
 gem 'coffee-rails'
 gem 'ember-rails'
-gem 'ember-source'
+gem 'ember-source', '>= 1.5.1.1'
+gem 'ember-data-source', '>= 1.0.0.beta7'
 gem 'emblem-rails'
 gem 'haml-rails'
 gem 'jquery-rails', '3.0.4'
