@@ -1,2 +1,2 @@
-App.ApplicationAdapter = DS.ActiveModelAdapter.extend
-  namespace: 'api/v1'
+App.Store = DS.Store.extend
+  adapter: '-active-model'
