@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#
+Story.create(name: 'User login', text: "Given I'm a user, When I login, Then I should be on the dashboard")
+Story.create(name: 'User logout', text: "Given I'm a signed in user, When I logout, Then I should be on the home page")

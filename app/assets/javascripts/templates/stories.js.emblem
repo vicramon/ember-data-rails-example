@@ -4,7 +4,7 @@ each story in  controller
 
 h2 Modals
 
-= linkTo 'left_slide' | Route-based modal
+= link-to 'left_slide' | Route-based modal
 
 = outlet
 
